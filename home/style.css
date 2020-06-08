@@ -1,0 +1,21 @@
+body{
+   background: url(assets/homepage.png);
+   background-size: cover;
+   font-family: 'Poppins', sans-serif;
+   
+}
+.home h1{
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 80px;
+}
+.explore a{
+    padding: 10px 30px;
+    border:yellow 4px solid;
+    border-radius: 4px;
+}
+.bg-yello{
+    background: yellow;
+}
