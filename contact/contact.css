@@ -1,0 +1,127 @@
+html,
+body {
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  font-family: Poppins, "Trebuchet MS", Arial, sans-serif;
+  display: flex;
+  font-size: 0.9em;
+  height: 100%;
+}
+body {
+  background: url("../Assets/Contact.png") center no-repeat;
+  background-size: cover;
+}
+.box {
+  height: 60%;
+  align-items: flex-end;
+  width: 100%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+}
+@media (max-width: 420px) {
+  .form-row {
+    padding: 2px;
+    flex-direction: column;
+  }
+  #msg {
+    position: relative;
+    z-index: 1;
+  }
+  .box {
+    align-content: center;
+  }
+}
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+  .container {
+    padding: 1em;
+  }
+  #info {
+    display: none;
+  }
+}
+@media (max-width: 769px) {
+  .form {
+    height: 12em;
+    width: 90%;
+  }
+  .form-row {
+    width: 95%;
+    display: block;
+  }
+  .container {
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    padding: 4em;
+    width: 90%;
+    height: 90%;
+    background: #ffffff77;
+  }
+  section {
+    margin: 1em;
+    padding: 2em;
+  }
+}
+.container > * {
+  flex: 1;
+}
+.container > form {
+  flex: 1.5;
+}
+section {
+  height: 80%;
+  width: 100%;
+  line-height: 2.5em;
+  font-size: 1em;
+  margin-left: auto;
+  align-items: left;
+  text-align: left;
+}
+form {
+  margin-right: auto;
+}
+.form-row {
+  display: flex;
+  width: 95%;
+  padding: 10px;
+}
+.form-row > .tab {
+  flex: 1;
+}
+.tab {
+  display: flex;
+  height: 30px;
+  margin: 10px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  -webkit-box-shadow: -5px 3px 8px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 3px 8px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px 3px 8px -1px rgba(0, 0, 0, 0.75);
+}
+
+#msg {
+  margin: 10px;
+  align-items: flex-end;
+  height: 45%;
+  width: 90%;
+  border: 1px solid #000000;
+  -webkit-box-shadow: -5px 3px 8px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 3px 8px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px 3px 8px -1px rgba(0, 0, 0, 0.75);
+}
+button {
+  background: #ffc107;
+  border: none;
+  height: 3em;
+  border-radius: 4px;
+}
