@@ -5,7 +5,7 @@ body {
   text-align: center;
   font-family: Poppins, "Trebuchet MS", Arial, sans-serif;
   display: flex;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   height: 100%;
 }
 body {
@@ -124,4 +124,7 @@ button {
   border: none;
   height: 3em;
   border-radius: 4px;
+}
+input{
+  padding: 2px 12px;
 }

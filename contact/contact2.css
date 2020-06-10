@@ -1,0 +1,12 @@
+.contact{
+    padding: 92px;
+  
+}
+
+body{
+    background: url(../Assets/Contact.png);
+    background-size: cover;
+}
+.bg-yello{
+    background: #FFC107;
+}
