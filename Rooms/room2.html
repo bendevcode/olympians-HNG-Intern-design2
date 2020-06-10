@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="room2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Room</title>
+</head>
+<body>
+    <nav class="flex items-center justify-between flex-wrap bg-green p-3 w-9/12 bg-white rounded-lg mx-auto mt-10">
+        <div class="flex items-center flex-shrink-0 mr-6 justify-between w-full lg:w-auto">
+          <i class="fa fa-bars fa-2x mr-2 lg:hidden bar"></i>
+          <a href="#" class="font-semibold text-lg tracking-tight hover:text-gray-400">Home</a>
+           <a href="#"><i class="fa fa-hotel fa-2x hover:text-gray-400 lg:hidden"></i></a>
+        </div>
+        
+        <div class="w-full hidden flex-grow lg:flex lg:items-center lg:w-auto collapse">
+          <div class="text-sm lg:flex-grow ">
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-gray-600 mr-4">
+              Our Stories
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-gray-400 mr-4 ">
+              Rooms
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-gray-400 mr-4">
+              Gallery
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-400 mr-4">
+                Facilities
+              </a>
+              <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-gray-400">
+                Contact
+              </a>
+          </div>
+          <div>
+            <a href="#" class="inline-block text-sm leading-none mt-4 lg:mt-0">+2348027893246</a>
+          </div>
+        </div>
+      </nav>
+      
+      <section class="room">
+        <div class="fam-room flex flex-col">
+            <div class="card w-full md:w-4/12 px-3 py-1 mt-auto">
+              <h1 class="font-bold text-xl">Large Sovereign Family Room</h1>
+              <p class="my-1">Experience a different family treat, here 
+                for your family comfort</p>
+                <div class="flex justify-between">
+                    <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star text-white"></i>
+                    </span>
+                    <h1 class="font-bold">$400</h1>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row my-10">
+            <div class="w-full md:w-4/12 exec-room flex flex-col">
+                <div class="card w-9/12 px-2 flex flex-col mt-auto">
+                    <h1 class="font-semibold">Executive Suite</h1>
+                    <p class="text-sm">Have a taste of executive</p>
+                      <div class="flex justify-between">
+                          <span>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star text-white"></i>
+                          </span>
+                          <h1 class="font-bold">$250</h1>
+                      </div>
+                  </div>
+            </div>
+            <div class="w-full md:w-4/12 queen-room md:mx-3 flex flex-col my-10 md:my-0">
+                <div class="card w-9/12 px-2 flex flex-col mt-auto">
+                    <h1 class="font-semibold">Queens Room</h1>
+                    <p class="text-sm">We’ll treat you like a queen</p>
+                      <div class="flex justify-between">
+                          <span>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star text-white"></i>
+                              <i class="fa fa-star text-white"></i>
+                          </span>
+                          <h1 class="font-bold">$220</h1>
+                      </div>
+                  </div>
+            </div>
+            <div class="w-full md:w-4/12 pres-room flex flex-col">
+                <div class="card w-9/12 px-2 mt-auto">
+                    <h1 class="font-semibold">Presidential Suite</h1>
+                    <p class="text-sm">Experience the presidential life </p>
+                      <div class="flex justify-between">
+                          <span>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                          </span>
+                          <h1 class="font-bold">$470</h1>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center mb-5 md:mb-0 md:flex-row md:justify-between justify-center">
+            <h1 class="font-bold text-3xl mb-3">Reviews</h1>
+            <div class="flex items-center"><i class="fa fa-plus mr-3 "></i><p class="font-semibold text-xl">Write a review</p></div>
+        </div>
+        <div class="flex flex-col mb-5 md:mb-0 md:flex-row md:justify-between">
+            <div class="md:w-5/12 w-full">
+                <div class="rate flex items-baseline mb-4">
+                <p>5</p>
+                <i class="fa fa-star ml-1 mr-3 text-yello"></i>
+                <div class="w-8/12 h-3 bg-yello rounded-l-lg"></div>
+                <div class="w-3/12 h-3 bg-gray-500 rounded-r-lg mr-3"></div>
+                <p>76%</p>
+                </div>
+                <div class="rate flex items-baseline mb-4">
+                    <p>4</p>
+                    <i class="fa fa-star ml-1 mr-3 text-yello"></i>
+                    <div class="w-7/12 h-3 bg-yello rounded-l-lg"></div>
+                    <div class="w-5/12 h-3 bg-gray-500 rounded-r-lg mr-3"></div>
+                    <p>55%</p>
+                </div>
+                <div class="rate flex items-baseline mb-4">
+                    <p>3</p>
+                    <i class="fa fa-star ml-1 mr-3 text-yello"></i>
+                    <div class="w-5/12 h-3 bg-yello rounded-l-lg"></div>
+                    <div class="w-7/12 h-3 bg-gray-500 rounded-r-lg mr-3"></div>
+                    <p>35%</p>
+                </div>
+                <div class="rate flex items-baseline mb-4">
+                    <p>2</p>
+                    <i class="fa fa-star ml-1 mr-3 text-yello"></i>
+                    <div class="w-3/12 h-3 bg-yello rounded-l-lg"></div>
+                    <div class="w-9/12 h-3 bg-gray-500 rounded-r-lg mr-3"></div>
+                    <p>25%</p>
+                </div>
+                <div class="rate flex items-baseline mb-4">
+                    <p>1</p>
+                    <i class="fa fa-star ml-1 mr-3 text-yello"></i>
+                    <div class="w-1/12 h-3 bg-yello rounded-l-lg"></div>
+                    <div class="w-11/12 h-3 bg-gray-500 rounded-r-lg mr-3"></div>
+                    <p>10%</p>
+                </div>
+                
+            </div>
+            <div class="flex items-center justify-center">
+                <p class="font-bold text-5xl mr-8">4.6</p>
+                <div>
+                    <p>Excellent</p>
+                    <span><i class="fa fa-star text-yello mr-3"></i><i class="fa fa-star text-yello mr-3"></i><i class="fa fa-star text-yello mr-3"></i><i class="fa fa-star text-yello mr-3"></i><i class="fa fa-star text-gray-400"></i></span>
+                    <p>527 Reviews</p>
+                </div>
+            </div>
+        </div>
+        
+      </section>
+
+      <footer class="mt-5 py-5 px-24">
+        <div class="flex justify-between flex-col md:flex-row ">
+          <div class="md:w-3/12 w-full text-center md:text-left mb-8 md:mb-0">
+              <h1 class="font-bold md:mb-5">Dreams</h1>
+              <p class="md:w-8/12">Lorem ipsum dolor sit amet, 
+                 consectetur adipiscing elit. 
+                 Eget sem urna, lacus, 
+                 commodo. Vel sit vitae, 
+                 pretium in diam eu. Sed 
+                 lacinia blandit </p>
+          </div>
+          <div class="md:w-3/12 text-center md:text-left mb-8 md:mb-0 flex flex-col">
+              <h1 class="font-bold md:mb-5">Services</h1>
+              <a href="#" class="hover:text-gray-600">Hotel</a>
+              <a href="#" class="hover:text-gray-600">Restaurant</a>
+              <a href="#" class="hover:text-gray-600">Spa</a>
+              <a href="#" class="hover:text-gray-600">Gym</a>
+              
+          </div>
+          <div class="md:w-3/12 text-center md:text-left  mb-8 md:mb-0 flex flex-col">
+             <h1 class="font-bold md:mb-5">Company</h1>
+             <a href="#" class="hover:text-gray-600">About Us</a>
+             <a href="#" class="hover:text-gray-600">Services</a>
+             <a href="#" class="hover:text-gray-600">Testimonial</a>
+             <a href="#" class="hover:text-gray-600">Blog</a>
+          </div>
+          <div class="md:w-3/12 text-center md:text-left mb-8 md:mb-0 flex flex-col">
+             <h1 class="font-bold md:mb-5 ">Connect with us</h1>
+             <p class="mb-3 md:mb-0">26 Isaac John, GRA, Ikeja,
+                 Lagos</p>
+                 <p>Dreams@gmail.com</p>
+                 <div class="flex md:w-4/12  justify-center mt-3 text-blue-600 md:ml-4 mx-auto">
+                   <a href="#"><i class="fa fa-facebook-official fa-2x hover:text-blue-900"></i></a>  
+                     <a href="#"><i class="fa fa-twitter mx-5 fa-2x hover:text-blue-900"></i></a>
+                     <a href=""><i class="fa fa-instagram text-red-600 fa-2x hover:text-red-900"></i></a>
+                 </div>
+         </div>
+         
+        </div>
+       <p class="text-center font-bold">© 2020 all simple rights reserved</p>
+  </footer>
+
+
+    <script src="room2.js"></script>  
+</body>
+</html>
