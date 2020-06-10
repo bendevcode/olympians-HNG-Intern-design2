@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contact2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="flex items-center justify-between flex-wrap bg-green p-3 w-9/12 bg-white rounded-lg mx-auto mt-10">
+        <div class="flex items-center flex-shrink-0 mr-6 justify-between w-full lg:w-auto">
+          <i class="fa fa-bars fa-2x mr-2 lg:hidden bar"></i>
+          <a href="#" class="font-semibold text-lg tracking-tight hover:text-gray-400">Home</a>
+           <a href="#"><i class="fa fa-hotel fa-2x hover:text-gray-400 lg:hidden"></i></a>
+        </div>
+        
+        <div class="w-full hidden flex-grow lg:flex lg:items-center lg:w-auto collapse">
+          <div class="text-sm lg:flex-grow ">
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-gray-600 mr-4">
+              Our Stories
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-gray-400 mr-4 ">
+              Rooms
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-gray-400 mr-4">
+              Gallery
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-400 mr-4">
+                Facilities
+              </a>
+              <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-gray-400">
+                Contact
+              </a>
+          </div>
+          <div>
+            <a href="#" class="inline-block text-sm leading-none mt-4 lg:mt-0">+2348027893246</a>
+          </div>
+        </div>
+      </nav>
+      <section class="contact mt-5">
+       <div class="flex flex-col lg:flex-row p-5 bg-white">
+           <div class="flex flex-col w-full lg:w-7/12 mr-12 mb-7 lg:mb-0">
+               <div class="flex"> 
+                    <input type="text" class="p-3 border rounded-lg border-black w-full outline-none mr-4" placeholder="Full Name"> 
+                    <input type="text" class="p-3 border rounded-lg border-black w-full outline-none" placeholder="Phone Number">
+               </div>
+               <div class="flex my-5">
+                <input type="text" class="p-3 border rounded-lg  border-black w-full outline-none mr-4" placeholder="Subject"> 
+                <input type="text" class="p-3 border rounded-lg  border-black w-full outline-none" placeholder="Email">
+               </div>
+             <textarea name="message" id="" cols="30" rows="10" class="p-3 border rounded-lg border-black w-full outline-none" placeholder="Message"></textarea>
+           </div>
+           <div class="flex flex-col items-center lg:items-start">
+                   <p class="font-semibold text-lg">INFO</p> 
+                   <p class="my-5">Get in touch if you have any question and want an 
+                    answer, here is a place to share your view to serve 
+                    you better. </p> 
+                    <div class="flex items-baseline"><i class="fa fa-location-arrow mr-4"></i><p>26 Isaac John, GRA, Ikeja, Lagos</p></div>
+                    <div class="flex items-baseline"><i class="fa fa-phone mr-4"></i><p>+2349037891202</p></div>
+                    <div class="flex items-baseline"><i class="fa fa-envelope mr-4"></i><p>Book@gmail.com</p></div>
+                    <button class="p-4 rounded-lg bg-yello w-7/12 lg:w-4/12 mt-10">Send Message</button>
+           </div>
+       </div>    
+    
+      </section>
+
+      <script src="contact2.js"></script>
+</body>
+</html>
