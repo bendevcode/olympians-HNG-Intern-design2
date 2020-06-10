@@ -1,0 +1,312 @@
+body{
+	margin: none;
+	background-image: url("images/Contact.png");
+	 background-repeat: no-repeat 0px 0px;
+	 /*width: 100%;*/
+	 background-size: cover;
+	 /*background-attachment: fixed;*/
+}
+/*navigation styling
+*/
+#nav-container{
+	background-color: white;
+	margin-top: 50px;
+	height: 50px;
+	max-width: 1100px;
+	margin-left: 100px;
+	border-radius: 5px;
+
+
+}
+#link{
+	padding-top: 15px;
+	padding-left: 30px;
+}
+a{
+	text-decoration: none;
+	font-family: arial;
+	padding: 20px;
+	color: black;
+
+}
+span{
+	margin-left: 220px;
+}
+
+/*Brginning of the form styling
+*/
+#form-container{
+	max-width: 95%;
+	height: 355px;
+	background-color: white;
+	margin-top: 320px;
+	margin-left: 26px;
+
+}
+#details{
+      padding-top: 15px;
+      padding-left: 805px;
+      margin-right: 5px;
+      font-family: arial;
+      font-size: 13px;
+      line-height: 20px;
+}
+img{
+	height: 17px;
+}
+p{
+	padding-top: 5px;
+}
+button{
+	background-color: yellow;
+	width: 120px;
+	height: 40px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-family: arial;
+	font-weight: 1500;
+	text-align: center;
+	margin-top: 15px;
+} 
+#send-btn{
+	margin-left: 800px;
+	margin-top: -100px;
+}
+input, textarea{
+    padding: 10px;
+	outline: none;
+	border: 1px solid black;
+	font-family: arial;	
+	box-sizing: border-box;
+
+}
+#log{
+	margin-top: -230px;
+	margin-left: 30px;
+}
+.personal-details{
+	width: 324px;
+	border-radius: 3px;
+	margin: 10px;
+	
+}
+#message{
+	width: 680px;
+	height: 170px;
+	margin: 7px;
+}
+input:focus{
+	 border: 1px solid teal;
+}
+textarea:focus{
+	 border: 1px solid tomato;
+}
+
+/*Beginning of responsiveness
+*/
+@media only screen and (max-width: 600px) {
+    #form-container {
+        max-width: 100%;
+        margin-left: none;
+
+    }
+    #nav-container{
+    	margin-left: 5px;
+    }
+    span{
+    	margin-left: 30px;
+    }
+    #details{
+       padding-left: 40px;
+      line-height: 17px;
+      padding-top: 2px;
+      font-size: 13px;
+    }
+    .personal-details{
+	width: 150px;
+	margin: 15px;
+	
+    }
+     #log{
+	   margin-top: -10px;
+	   margin-left: 25px;
+
+     }
+     #subject{
+     	margin-top: -10px;
+     }
+     #form-container{
+	height: 690px;
+	margin-top: 290px;
+
+   }
+   #message{
+	max-width: 150px;
+	height: 100px;
+	margin-left: 15px;
+	margin-top: -7px;
+}
+    #send-btn{
+	 margin-left: 55px;
+	 margin-top: -10px;
+ }
+}
+
+
+@media only screen and (min-width: 600px) {
+        #nav-container{
+	      width: 900px;
+	      margin-left: 18px;
+}
+      span{
+    	margin-left: 90px;
+    }
+    #form-container{
+	min-width: 910px;
+	height: 355px
+	margin-top: 210px;
+	margin-left: 0px
+
+}
+      #log{
+      	width: 700px;
+	   margin-top: -250px;
+	   margin-left: 2px;
+
+
+     }
+      #send-btn{
+	 margin-top: -90px;
+	 margin-left: 660px;
+ }
+  .personal-details{
+	width: 280px;
+    }
+    #message{
+	width: 590px;
+}
+    
+#details{
+      padding-left: 670px;
+      
+}
+}
+
+@media only screen and (min-width: 992px) {
+	#form-container{
+	margin-top: 235px;
+   }
+   #details{
+     
+      padding-left: 610px;
+     
+      
+}
+ #message{
+	width: 530px;
+}
+.personal-details{
+	width: 250px;
+    }
+    #send-btn{
+	 margin-left: 605px;
+ }
+}
+@media only screen and (min-width: 1200px) {
+	#nav-container{
+	background-color: white;
+	margin-top: 50px;
+	height: 50px;
+	width: 95%;
+	margin-left: 100px;
+	border-radius: 5px;
+
+
+}
+#link{
+	padding-top: 15px;
+	padding-left: 30px;
+}
+a{
+	text-decoration: none;
+	font-family: arial;
+	padding: 20px;
+	color: black;
+
+}
+span{
+	margin-left: 220px;
+}
+
+
+#form-container{
+	max-width: 95%;
+	height: 355px;
+	background-color: white;
+	margin-top: 320px;
+	margin-left: 26px;
+
+}
+#details{
+      padding-top: 15px;
+      padding-left: 805px;
+      margin-right: 5px;
+      font-family: arial;
+      font-size: 13px;
+      line-height: 20px;
+}
+img{
+	height: 17px;
+}
+p{
+	padding-top: 5px;
+}
+button{
+	background-color: yellow;
+	width: 120px;
+	height: 40px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-family: arial;
+	font-weight: 1500;
+	text-align: center;
+	margin-top: 15px;
+} 
+#send-btn{
+	margin-left: 800px;
+	margin-top: -100px;
+}
+input, textarea{
+    padding: 10px;
+	outline: none;
+	border: 1px solid black;
+	font-family: arial;	
+	box-sizing: border-box;
+
+}
+#log{
+	margin-top: -230px;
+	margin-left: 30px;
+}
+.personal-details{
+	width: 324px;
+	border-radius: 3px;
+	margin: 10px;
+	
+}
+#message{
+	width: 680px;
+	height: 170px;
+	margin: 7px;
+}
+}
+
+
+	
+
+
+
+	
+	
