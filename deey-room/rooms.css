@@ -1,0 +1,160 @@
+body{
+	background: rgb(253, 248, 254);
+	background-repeat: no-repeat;
+	position: absolute;
+}
+.navbar{
+	background: white;
+	width: 1100px;
+	height: 35px;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 115px;
+	padding-right: 30px;
+	color:white;
+}
+.familyRoom{
+	position: relative;
+	background: url(https://github.com/bendevcode/olympians-HNG-Intern-design2/blob/master/Assets/family-room.png?raw=true); 
+	background-repeat: no-repeat;
+	width: 1300px;
+	height: 450px;
+	left: 55px;
+	top: 20px;
+}
+#roomContent{
+	position: relative;
+	top: 350px;
+	background: yellow;
+	width: 300px;
+	height: 100px;
+	
+}
+#cOne{
+	position: relative;
+	font-weight: 150px;
+	font-size: 19px;
+	left: 20px;
+}
+#cTwo{
+	position: relative;
+	left: 20px;
+	font-size: 12px
+}
+#cThree{
+	position: relative;
+	left: 20px;
+	font-size: 12px;
+	top:-15px;
+}
+#cFour{
+	position: relative;
+	font-size: 12px;
+	left: 260px;
+	top: -28px;
+	text-decoration: bold;
+}
+.more{
+	display: inline-flex;
+}
+#R1{
+	position: relative;
+	background: url(https://github.com/bendevcode/olympians-HNG-Intern-design2/blob/master/Assets/executive-room.png?raw=true);
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 250px;
+	left: 55px;
+	top: 40px;
+}#R2{
+	position: relative;
+	background: url(https://github.com/bendevcode/olympians-HNG-Intern-design2/blob/master/Assets/Queens%20room.png?raw=true);
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 250px;
+	left: 85px;
+	top: 40px;
+}#R3{
+	position: relative;
+	background: url(https://github.com/bendevcode/olympians-HNG-Intern-design2/blob/master/Assets/Presidential-suite.png?raw=true);
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 250px;
+	left: 117px;
+	top: 40px;
+}
+#cR1{
+	position: relative;
+	background: yellow;
+	width: 230px;
+	height: 80px;
+	top: 170px;
+
+}#cR2{
+	position: relative;
+	background: yellow;
+	width: 270px;
+	height: 80px;
+	top: 170px;
+
+}#cR3{
+	position: relative;
+	background: yellow;
+	width: 290px;
+	height: 80px;
+	top: 170px;
+
+}
+#cR11{
+	position: relative;
+	left: 20px;
+	font-weight: 150px;
+	font-size: 19px;
+
+}
+#cR12{
+	position: relative;
+	top: -4px;
+	left: 20px;
+	font-size: 12px
+}
+#cR13{
+	position: relative;
+	top: -18px;
+	left: 170px;
+}
+#cR21{
+	position: relative;
+	left: 20px;
+	font-weight: 150px;
+	font-size: 19px;
+
+}
+#cR22{
+	position: relative;
+	top: -4px;
+	left: 20px;
+	font-size: 12px
+}
+#cR23{
+	position: relative;
+	top: -18px;
+	left: 210px;
+}
+#cR31{
+	position: relative;
+	left: 20px;
+	font-weight: 150px;
+	font-size: 19px;
+
+}
+#cR32{
+	position: relative;
+	top: -4px;
+	left: 20px;
+	font-size: 12px
+}
+#cR33{
+	position: relative;
+	top: -18px;
+	left: 230px;
+}
