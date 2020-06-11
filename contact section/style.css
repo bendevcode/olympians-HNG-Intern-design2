@@ -1,0 +1,74 @@
+body{
+	background-image: url(../image/contant.png);
+	background-repeat: no-repeat; 
+}
+.menu-bar {
+	text-align: center;
+	background: #f8f8f8;
+	color:black;
+	width: 800px;
+	margin-left: 125px;
+	margin-top: 12px;
+}
+.menu-bar ul {
+	list-style: none;
+	display: inline-flex;
+	color:black;
+	font-weight: bold;
+}
+.menu-bar ul li {
+	width: 100px;
+	text-align: justify;
+}
+
+.contact-box {
+	background: white;
+	display: flex;
+	margin-top: 250px;
+   margin-bottom: -40px;
+	width: 750px;
+	height: 500px;
+	margin-left: 100px;
+}
+.contact-left {
+	flex-basis: 40%;
+	padding: 40px 60px;
+}
+.contact-right {
+	flex-basis: 70%;
+	padding:0px 5px;
+	background:white;
+	color: black;
+}
+h1 {
+	margin-bottom: 10px;
+}
+input {
+	padding: 10px;
+
+}
+textarea {
+	margin-left: -34px;
+	margin-top: -10px;
+}
+.input-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-left: -40px;
+}
+.input-row .input-group {
+	flex-basis: 45%;
+	border: 2px solid white;
+}
+input {
+	width: 100%
+}
+.text-re {
+	margin-top: 20px;
+	padding-top: -50px;
+}
+ .contact-right .fa {
+ 	marker-right: 8px;
+ }
+
