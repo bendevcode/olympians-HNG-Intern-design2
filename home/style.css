@@ -5,8 +5,8 @@ body{
    
 }
 .home h1{
-    font-family: 'Dancing Script', cursive;
-    font-style: normal;
+font-family: 'Dancing Script', cursive;
+font-style: normal;
 font-weight: bold;
 font-size: 72px;
 line-height: 80px;
@@ -19,3 +19,19 @@ line-height: 80px;
 .bg-yello{
     background: yellow;
 }
+
+.dropdown-content{
+    position: absolute;
+    box-shadow: 10px 10px 10px 10px rgba(173, 37, 37, 0.2);
+    z-index: 1;
+    display: none;
+    background:cornsilk;
+}
+.show{
+ display: block;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+
+
