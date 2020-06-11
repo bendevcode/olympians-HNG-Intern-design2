@@ -1,7 +1,7 @@
-body{
-   background: url(assets/homepage.png);
-   background-size: cover;
-   font-family: 'Poppins', sans-serif;
+.home{
+    background: #757F9A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    
 }
 .home h1{
@@ -13,25 +13,28 @@ line-height: 80px;
 }
 .explore a{
     padding: 10px 30px;
-    border:yellow 4px solid;
+    border:  #FFC107 1px solid;
     border-radius: 4px;
 }
-.bg-yello{
-    background: yellow;
+.bg-crisp{
+    background:  #FFC107;
+}
+footer{
+    background: #5b615b;
+    color: white;
+    font-weight: 300;
 }
 
 .dropdown-content{
     position: absolute;
-    box-shadow: 10px 10px 10px 10px rgba(173, 37, 37, 0.2);
     z-index: 1;
     display: none;
-    background:cornsilk;
 }
 .show{
  display: block;
 }
 .rotate{
-    transform: rotate(90deg);
+    transform: rotate(180deg);
 }
 
 

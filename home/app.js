@@ -3,21 +3,26 @@ $(".bar").click(function (e) {
     $(this).toggleClass("text-gray-600");
     navlinks.toggleClass("hidden");
 });
-var b1=$(".b1");
-var b2=$(".b2");
-b1.click(function(e){
+var p1=$(".p1");
+var p2=$(".p2");
+p1.click(function(e){
     $(".dd1").toggleClass("show");
     $(".caret1").toggleClass("rotate")
 });
 
-b2.click(function(e){
+p2.click(function(e){
     $(".dd2").toggleClass("show");
     $(".caret2").toggleClass("rotate")
 });
 
-$('.dd1').click(function(e){
-    $(this).toggleClass("show");
+$('.pp').click(function(e){
+    $(".dd1").toggleClass("show");
+    var a=$(this).text();
+    $(".p1").html(a +"<i class=\"fa fa-angle-down ml-3 caret1\">")
 })
-$('.dd2').click(function(e){
-    $(this).toggleClass("show");
+
+$('.pp1').click(function(e){
+    $(".dd2").toggleClass("show");
+    var a=$(this).text();
+    $(".p2").html(a +"<i class=\"fa fa-angle-down ml-3 caret2\">")
 })

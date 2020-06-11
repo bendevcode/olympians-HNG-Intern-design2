@@ -5,7 +5,6 @@ body{
 .facility-nav h1{
     font-family: Dancing Script;
     font-style: normal;
-    font-weight: bold;
     line-height: 62px;
 }
 .facility-nav{
@@ -18,19 +17,18 @@ body{
     height: 415px;
 }
 .services h1{
- font-family: Dancing Script;
-  font-style: normal;
+font-family: Dancing Script;
+font-style: normal;
 font-weight: bold;
-font-size: 64px;
 line-height: 72px;
 }
-.facility{
-    padding: 92px;
-}
+
 .bg-yello{
     background: #FFC107;
 }
 
 footer{
-    background: #FFC107;
+    background: #5b615b;
+    color: white;
+    font-weight: 300;
 }
