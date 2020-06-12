@@ -3,10 +3,12 @@ body{
  }
 
 footer{
-    background: #FFC107;
+    background: #5b615b;
+    color: white;
+    font-weight: 300;
 }
 .room{
-    padding: 92px;
+    
 }
 .fam-room{
     background-image: url(Assets/room.png);

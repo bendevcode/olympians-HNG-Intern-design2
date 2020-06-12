@@ -12,15 +12,15 @@
     <title>Homepage</title>
 </head>
 <body class="h-screen">
-  <nav class="flex items-center justify-between flex-wrap bg-green p-3 w-9/12 bg-white rounded-lg mx-auto mt-10">
-    <div class="flex items-center flex-shrink-0 mr-6 justify-between w-full lg:w-auto">
+  <nav class="flex flex-col items-left justify-between py-4 px-10 bg-white border lg:flex-row">
+    <div class="flex mr-6 justify-between w-full lg:w-auto items-center">
       <i class="fa fa-bars fa-2x mr-2 bar lg:hidden"></i>
-      <a href="#" class="font-semibold text-lg tracking-tight hover:text-gray-400">Home</a>
-       <a href="#"><i class="fa fa-hotel fa-2x hover:text-gray-400 lg:hidden"></i></a>
+      <a href="#" class="text-xl tracking-tight hover:text-gray-400"><span class="text-2xl font-semibold">Dreams</span> hotel</a>
+       <a href="#"><i class="fa fa-mercury fa-2x hover:text-gray-400 lg:hidden animate__animated hover:animate__heartBeat"></i></a>
     </div>
     
-    <div class="w-full hidden flex-grow lg:flex lg:items-center lg:w-auto collapse">
-      <div class="text-sm lg:flex-grow ">
+    <div class="hidden lg:flex lg:items-center lg:w-auto collapse">
+      <div class="text-sm lg:flex-grow">
         <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-gray-600 mr-4">
           Our Stories
         </a>
@@ -36,64 +36,117 @@
           <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  hover:text-gray-400">
             Contact
           </a>
-      </div>
-      <div>
-        <a href="#" class="inline-block text-sm leading-none mt-4 lg:mt-0">+2348027893246</a>
+          <a href="#" class=" hidden lg:inline-block leading-none mt-4 lg:mt-0 lg:ml-5"><i class="fa fa-mercury fa-2x animate__animated hover:animate__heartBeat"></i></a>
       </div>
     </div>
   </nav>
-
-        <section class=" home p-5">
-        <div class="text-white text-center ">
+ <section class="home p-5 mb-16">
+        <div class="text-white text-center">
             <h1 class="mb-5 animate__animated animate__zoomIn">Welcome to Dreams Hotel</h1>
             <p class="w-6/12 mx-auto">Spend Quality Time In Our Elegant Room where life is good
                 and your maximum security is guarantee</p>
         </div>
-            <div class="flex explore my-10 justify-center">
-                <a href="#" class="mr-10 bg-yello">Explore</a>
+            <div class="flex explore my-10 justify-center text-center">
+                <a href="#" class="mr-10 bg-crisp">Explore</a>
                 <a href="#" class="text-white">Reserve Now</a>
             </div>
-        <div class="flex w-4/12 mx-auto justify-center">
-            <div class="w-6 h-2 bg-yello rounded-lg  ml-2"></div>
-            <div class="w-3 h-2 bg-white rounded-lg ml-2"></div>
-            <div class="w-3 h-2 bg-white rounded-lg ml-2"></div>
-            <div class="w-3 h-2 bg-white rounded-lg ml-2"></div>
+        <div class="flex w-7/12 mx-auto justify-center bg-crisp h-1">
         </div>
-        <div class="flex mt-20 items-center mx-auto justify-center flex-col lg:flex-row">
-        <div class="rounded-lg flex bg-gray-400 w-8/12 items-left lg:justify-center flex-col lg:flex-row lg:rounded-r-none">
-                <div class="flex items-center lg:mb-0 lg:mr-8 py-6 w-10/12 mx-auto lg:w-auto">
-                      <label for="date" class="mr-3">Arrival</label>
-                        <input type="date" name="arrival" id="date" value="2018-01-01" min="2018-01-01" max="2018-12-31" class="bg-gray-400">
-                </div>
-                <div class="flex items-center lg:mb-0 lg:mr-8 py-6 w-10/12 mx-auto lg:w-auto">
-                  <label for="date" class="mr-3">Departure</label>
-                  <input type="date" name="arrival" id="date" value="2018-07-22" min="2018-01-01" max="2018-12-31" class="bg-gray-400">
-               </div>
-               <div class="dropdown cursor-pointer lg:mr-8 py-6 w-10/12 lg:w-auto mx-auto">
-                <p class="b1"><i class="fa fa-user-circle mr-4"></i> Adult<i class="fa fa-angle-right ml-4 caret1"></i></p>
-              <div class="dropdown-content dd1 w-4/12 lg:w-32">
-                <p class="p-3 hover:bg-gray-400">1</p>
-                <p class="p-3 hover:bg-gray-400">2</p>
-                <p class="p-3 hover:bg-gray-400">3</p>
-                <p class="p-3 hover:bg-gray-400">4</p>
-              </div>
-             </div>
-              <div class="dropdown cursor-pointer py-6 w-10/12 lg:w-auto mx-auto">
-                <p class="b2"><i class="fa fa-user-circle mr-4"></i> Children <i class="fa fa-angle-right ml-4 caret2"></i></p>
-              <div class="dropdown-content dd2 w-4/12 lg:w-32">
-                <p class="p-3 hover:bg-gray-400">1</p>
-                <p class="p-3 hover:bg-gray-400">2</p>
-                <p class="p-3 hover:bg-gray-400">3</p>
-                <p class="p-3 hover:bg-gray-400">4</p>
-              </div>
-             </div>
-        </div>
-               <div class="p-6 rounded-lg bg-yello lg:rounded-l-none mt-10 lg:mt-0 ">
-                   <a href="#">Check Availability</a>
-               </div>
-        </div>
-
+         
+       <div class="p-5 rounded-lg flex flex-col items-center lg:flex-row bg-white lg:justify-between mt-16 shadow-lg">
+         <div class="w-full md:w-8/12 lg:w-auto mb-8 lg:mb-0">
+            <p class="mb-5">Arrival</p>
+             <input type="date" class="p-3 bg-transparent border outline-none rounded-lg w-full">
+         </div>
+         <div class=" w-full md:w-8/12 lg:w-auto mb-8 lg:mb-0">
+          <p class="mb-5">Departure</p>
+          <input type="date" class="p-3 transparent border outline-none rounded-lg w-full">
+         </div>
+         <div class="w-full md:w-8/12 lg:w-auto mb-8 lg:mb-0">
+           <p class="mb-5">Adults</p>
+            <p class="p-3 border rounded-lg flex justify-between items-center cursor-pointer p1"><span>1</span><i class="fa fa-angle-down ml-3 caret1"></i></p>
+           <div class="dropdown-content dd1 lg:w-1/12 border rounded-lg mt-1 bg-white w-7/12">
+            <p class="px-4 py-2 hover:bg-yellow-600 pp">1</p>
+            <p class="px-4 py-2 hover:bg-yellow-600 pp">2</p>
+            <p class="px-4 py-2 hover:bg-yellow-600 pp">3</p>
+            <p class="px-4 py-2 hover:bg-yellow-600 pp">4</p>
+          </div>
+         </div>
+         <div class="w-full md:w-8/12 lg:w-auto mb-8 lg:mb-0">
+          <p class="mb-5">Children</p>
+            <p class="p-3 border rounded-lg flex justify-between items-center cursor-pointer p2"><span>1</span><i class="fa fa-angle-down ml-3 caret2"></i></p>
+            <div class="dropdown-content dd2 lg:w-1/12 border rounded-lg mt-1 bg-white w-7/12">
+              <p class="px-4 py-2 hover:bg-yellow-600 pp1">1</p>
+              <p class="px-4 py-2 hover:bg-yellow-600 pp1">2</p>
+              <p class="px-4 py-2 hover:bg-yellow-600 pp1">3</p>
+              <p class="px-4 py-2 hover:bg-yellow-600 pp1">4</p>
+            </div>
+         </div>
+         <div class="rounded-lg flex-grow-0 mt-auto bg-crisp border text-center hover:bg-yellow-600 ">
+          <button class="p-3 outline-none">Check Availability</button>
+         </div>
+       </div>
     </section>
+     <section class="service lg:flex  p-5">
+       <div class=" w-full lg:w-5/12 mr-10 shadow-lg">
+         <img src="Assets/hotel-home.jpg" alt="">
+       </div>
+        <div class="w-7/12 mx-auto mt-10 text-center lg:text-left">
+          <h2 class="text-2xl text-gray-600 font-semibold">ABOUT</h2>
+          <p class="mt-5 lg:mt-0 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, 
+            cum quo beatae architecto consectetur adipisci omnis assumenda autem ratione, atque aliquam dignissimos, 
+            iure eius optio neque et error fugit! Obcaecati? consectetur adipiscing elit. 
+            Eget sem urna, lacus, 
+            commodo. Vel sit vitae, 
+            pretium in diam eu. Sed 
+            lacinia blanditconsectetur adipiscing elit. 
+            Eget sem urna, lacus, 
+            commodo. Vel sit vitae, 
+            pretium in diam eu. Sed 
+            lacinia blandit</p>
+        </div>
+     </section>
+    <footer class="mt-5 py-5 px-24">
+      <div class="flex justify-between flex-col md:flex-row ">
+        <div class="md:w-3/12 w-full text-center md:text-left mb-8 md:mb-0">
+            <h1 class="font-bold md:mb-5">Dreams</h1>
+            <p class="md:w-8/12">Lorem ipsum dolor sit amet, 
+               consectetur adipiscing elit. 
+               Eget sem urna, lacus, 
+               commodo. Vel sit vitae, 
+               pretium in diam eu. Sed 
+               lacinia blandit  </p>
+        </div>
+        <div class="md:w-3/12 text-center md:text-left mb-8 md:mb-0 flex flex-col">
+            <h1 class="font-bold md:mb-5">Services</h1>
+            <a href="#" class="hover:text-gray-600">Hotel</a>
+            <a href="#" class="hover:text-gray-600">Restaurant</a>
+            <a href="#" class="hover:text-gray-600">Spa</a>
+            <a href="#" class="hover:text-gray-600">Gym</a>
+            
+        </div>
+        <div class="md:w-3/12 text-center md:text-left  mb-8 md:mb-0 flex flex-col">
+           <h1 class="font-bold md:mb-5">Company</h1>
+           <a href="#" class="hover:text-gray-600">About Us</a>
+           <a href="#" class="hover:text-gray-600">Services</a>
+           <a href="#" class="hover:text-gray-600">Testimonial</a>
+           <a href="#" class="hover:text-gray-600">Blog</a>
+        </div>
+        <div class="md:w-3/12 text-center md:text-left mb-8 md:mb-0 flex flex-col">
+           <h1 class="font-bold md:mb-5 ">Connect with us</h1>
+           <p class="mb-3 md:mb-0">26 Isaac John, GRA, Ikeja,
+               Lagos</p>
+               <p>Dreams@gmail.com</p>
+               <div class="flex md:w-4/12  justify-center mt-3 text-blue-600 md:ml-4 mx-auto">
+                 <a href="#"><i class="fa fa-facebook-official fa-2x hover:text-blue-900"></i></a>  
+                   <a href="#"><i class="fa fa-twitter mx-5 fa-2x hover:text-blue-900"></i></a>
+                   <a href=""><i class="fa fa-instagram text-red-600 fa-2x hover:text-red-900"></i></a>
+               </div>
+       </div>
+       
+      </div>
+     <p class="text-center font-bold">© 2020 all simple rights reserved</p>
+</footer>
     
     <script src="app.js"></script>
 </body>
